@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and video</title>
+</head>
+
+<body>
+    <audio controls autoplay loop muted>
+        <source src="../Audio/سورةيوسف.mp3" type="audio/mpeg">
+        <source src="media/one_way_ticket.ogg" type="audio/ogg">
+        <source src="media/one_way_ticket.wav" type="audio/wav">
+        Your Browser Does Not Support Audio Tags
+    </audio>
+
+
+    <video controls width="600" height="400" autoplay loop muted>
+        <source src="../Audio/Money.mp4" type="video/mp4">
+        <source src="media/ghosts.ogg" type="video/ogg">
+        Your Browser Does Not Support Video Tag
+        <track src="my_file_en.vtt" kind="subtitles" srclang="en" label="English">
+        <track src="my_file_it.vtt" kind="subtitles" srclang="it" label="Italian">
+    </video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_S4EWpca2s4" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+</body>
+
+</html>
