@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+p {
+    font-size: 60px;
+}
+
+.Background-color {
+    height: 100vh;
+
+    background-color: lightblue;
+}
+
+.Background-Image {
+    height: 100vh;
+    background-image: url("../../images/img_tree-png-1.png");
+}
+
+.Background-Image-repeat {
+    height: 100vh;
+    background-image: url("../../images/img_tree-png-1.png");
+    /* background-repeat: repeat-x; */
+    background-repeat: repeat-y;
+    /* background-repeat: no-repeat; */
+    /* background-position: right top; */
+}
