@@ -1,0 +1,53 @@
+
+body{
+    background-color: green;
+}
+
+h1{
+font-size: xx-large;
+font-weight: bolder;
+color:goldenrod;
+text-align: center;
+
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+
+#start-el{
+        margin: 0;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        color: green;
+        font-size: x-large;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: goldenrod;
+        font-weight: bolder;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: none;
+        border-radius: 2px;
+      }
+      #newcard-el{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        color: green;
+        font-size: x-large;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: goldenrod;
+        font-weight: bolder;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: none;
+        border-radius: 2px;
+      }
