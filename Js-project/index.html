@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mohamed Abdelwahab</title>
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- google fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+  <button onclick="viewLogInTab()" style="width:auto;" class="button">Login</button>
+
+  <div id="id01" class="s">
+
+    <form class=" modal-content animate" action="/index.html" method="get">
+      <div class="imgcontainer">
+        <span onclick="closeLogInTab()" class="close" title="Close Modal">&times;</span>
+        <img src="images/avatar.jfif" alt="Avatar" class="avatar">
+      </div>
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="closeLogInTab()" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" class="left" onclick="openNav()">&#9776; open</span>
+
+
+  <div id="mySidenav" class="sidenav">
+    <a class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#About">About</a>
+    <a href="#skills">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud">
+    <div class="title-text">
+      <h1>I'm Mohamed.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+    </div>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div id="About" class="middle-container">
+    <div class="profile">
+      <img src="images/1-1.jpg" alt="angela-profile-img" width="200" style="border-radius: 50px;">
+      <h2>Hello.</h2>
+      <p class="intro">I am a full stack developer and Head of web development at GDSC AASTMT
+        Aswan and I ❤️ coffee and coding </p>
+    </div>
+    <hr>
+    <div id="skills" class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="https://media.giphy.com/media/3p50WGyUqeU5W/giphy.gif" alt="code-img">
+
+        <h3>Design & Development</h3>
+        <p>I started learning to code when I was 12 years old because I wanted to make my own video games. Over time, I
+          have gained a wealth of experience designing and developing mobile and web applications.</p>
+
+      </div>
+      <div class="skill-row">
+        <img class="chilli-img" src="images/chillies.png" alt="chillies-img">
+
+        <h3>Hot Wings Challenge</h3>
+        <p>But my best skill is actually in eating hot wings. I am the undisputed queen of hot wing challenges. Ghost
+          Peppers and Carolina Reapers are my favourite snacks.</p>
+
+      </div>
+    </div>
+    <hr>
+    <div id="contact" class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love hot wings as much as I do.</h3>
+      <p class="contact-message">Love hot wings as much as I do? Let's talk about how awesome they are! We can code
+        while we eat hot wings!</p>
+      <a class="btn" href="mailto:ilove@hotwings.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/mohammed-oka/">LinkedIn</a>
+    <a class="footer-link" target="_blank" href="https://twitter.com/Mohamed_Abdo321">Twitter</a>
+    <a class="footer-link" target="_blank" href="https://mohamedabdelwahaboka.github.io/Portfolio/">Website</a>
+    <p class="copyright">© 2023 Mohamed Abdelwahab @ AAST.</p>
+  </div>
+  <script src="javascript/Animated Sidenav.js"></script>
+  <script src="javascript/Modal Login Form.js"></script>
+</body>
+
+</html>
